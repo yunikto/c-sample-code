@@ -1,0 +1,20 @@
+codes c++
+
+#include <iostream>
+#include conio.h>
+#include <string>
+using namespace std;
+
+int main ()
+{
+string firstname, lastname;
+int age;
+double weight;
+cout <<enter name, age, weight separated by spaces" << endl;
+cin >> firstname >> lastname >> age >> weight;
+cout << "name" << firstname << " " << lasname << endl;
+cout << "age" << age << endl;
+cout << "weight" << weight << endl;
+getch ();
+return 0;
+}
